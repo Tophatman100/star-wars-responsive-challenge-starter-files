@@ -1,8 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+.navbar {
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	background-color: gold;
+}
+.nav-text {
+	padding-top: 12px;
+	line-height: 80%;
+}
+
+main {
+	margin-top: 40px;
+}
+
 main .row {
-	margin-top: 20px;
   	margin-bottom: 20px;
 }
 
 img {
 	width: 100%;
+	max-width: 320px;
+}
+
+.pic {
+	position: relative;
+	height: 380px;
+	border: lightgray 1px solid;
+	margin-bottom: 20px;
+}
+
+.pic > p {
+	padding-left: 16px;
+	line-height: 70%;
+}
+
+.bold {
+	font-size: larger;
+	font-weight: bold;
 }
